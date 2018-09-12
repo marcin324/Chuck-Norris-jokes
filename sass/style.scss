@@ -1,4 +1,41 @@
-button {
-  width: 120px;
-  height: 35px;
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+.button-section {
+    text-align: center;
+    padding-top: 30px;
+    button {
+    	width: 120px;
+	    	height: 40px;
+	    text-transform: uppercase;
+	    cursor: pointer;
+	    border: none;
+	    border-radius: 2px;
+	    background: #5B8BBA;
+	    color: #fff;
+	    font-weight: bold;
+		&:hover {
+	    	background: #759ABF;
+	    	transition: 0.5s;
+	    	box-shadow: 1px 1px 2px #777;
+		}
+	}
+}
+
+.joke-section {
+    width: 100%;
+    font-size: 1.3em;
+    margin-top: 80px;
+    text-align: center;
+    height: 300px;
+    line-height: 1.8em;
+    font-family: 'Open Sans', sans-serif;
+    background: #A4A4A4;
+    color: #fff;
+    padding-top: 70px;
+	p {
+    	width: 500px;
+	}
 }
