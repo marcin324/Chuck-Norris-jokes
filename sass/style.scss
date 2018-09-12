@@ -3,12 +3,27 @@
     margin: 0 auto;
 }
 
+.header {
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+	background: #2A2A2A;
+	color: #fff;
+	height: 80px;
+	line-height: 80px;
+	font-weight: lighter;
+	font-size: 1.6em;
+	p {
+		height: 80px;
+	}
+}
+
 .button-section {
+    height: 150px;
+    line-height: 150px;
     text-align: center;
-    padding-top: 30px;
     button {
     	width: 120px;
-	    	height: 40px;
+	    height: 40px;
 	    text-transform: uppercase;
 	    cursor: pointer;
 	    border: none;
@@ -27,7 +42,6 @@
 .joke-section {
     width: 100%;
     font-size: 1.3em;
-    margin-top: 80px;
     text-align: center;
     height: 300px;
     line-height: 1.8em;
