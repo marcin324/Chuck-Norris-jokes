@@ -1,6 +1,11 @@
 * {
-    box-sizing: border-box;
-    margin: 0 auto;
+	box-sizing: border-box;
+	margin: 0 auto;
+}
+
+body {
+	height: 100vh;
+	background-color: #A4A4A4;
 }
 
 .header {
@@ -12,44 +17,50 @@
 	line-height: 80px;
 	font-weight: lighter;
 	font-size: 1.6em;
+
 	p {
 		height: 80px;
 	}
 }
 
 .button-section {
-    height: 150px;
-    line-height: 150px;
-    text-align: center;
-    button {
-    	width: 120px;
-	    height: 40px;
-	    text-transform: uppercase;
-	    cursor: pointer;
-	    border: none;
-	    border-radius: 2px;
-	    background: #5B8BBA;
-	    color: #fff;
-	    font-weight: bold;
+	height: 150px;
+	line-height: 150px;
+	text-align: center;
+
+	button {
+		width: 120px;
+		height: 40px;
+		text-transform: uppercase;
+		cursor: pointer;
+		border: none;
+		border-radius: 2px;
+		background: #5B8BBA;
+		color: #fff;
+		font-weight: bold;
+		transition: 0.3s;
+
 		&:hover {
-	    	background: #759ABF;
-	    	transition: 0.5s;
-	    	box-shadow: 1px 1px 2px #777;
+			background: #759ABF;
+			/*box-shadow: 1px 1px 2px #777;*/
 		}
 	}
 }
 
 .joke-section {
-    width: 100%;
-    font-size: 1.3em;
-    text-align: center;
-    height: 300px;
-    line-height: 1.8em;
-    font-family: 'Open Sans', sans-serif;
-    background: #A4A4A4;
-    color: #fff;
-    padding-top: 70px;
+	width: 100%;
+	font-size: 1.3em;
+	text-align: center;
+	height: 300px;
+	line-height: 1.8em;
+	font-family: 'Open Sans', sans-serif;
+	background: #A4A4A4;
+	color: #fff;
+	padding-top: 70px;
+
 	p {
-    	width: 500px;
+		width: 800px;
+		font-size: 36px;
+		line-height: 1.5em;
 	}
 }
